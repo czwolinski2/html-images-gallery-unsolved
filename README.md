@@ -29,46 +29,46 @@ This assignment should prove that a student is able to:
 
 ## Standard requirements
 
-- [ ] Fork the project to your github account
-- [ ] Clone the project to your computer
-- [ ] Open the project in VSCode with `code <cloned_repo_folder_name>`
-- [ ] Initialize playwright and install project packages
-  - [ ] Use `npm i` to install packages
-  - [ ] Use `npm run browser-install` to install the browser environment for testing 
-- [ ] All the tasks of the "Specific requirements" section MUST be solved
-- [ ] **The project's file/folder structure should NOT be edited!**
-- [ ] All the tests MUST pass. Fix the errors in case they don't BEFORE you submit (acceptance criteria)
-  - [ ] Use `npm run test` to run all tests in the terminal
-  - [ ] Use `npm run test-main` to run index.html file tests
-  - [ ] Use `npm run test-modern-design` to run modern-design.html file tests
-  - [ ] Use `npm run test-nature` to run nature.html file tests
-  - [ ] Use `npm run test-plants` to run plants.html file tests
-  - [ ] Use `npm run test-space` to run space.html file tests
-  - [ ] (Optional) Use `npm run test-ui` to run all the tests with GUI
-  - [ ] (Optional) Use `npm run show-report` to see the latest report in the browser
-- [ ] VSCode IDE MUST have 0 code problems listed (spelling problems are fine)
-- [ ] The code MUST be formatted with Prettier
-- [ ] Push the changes to the Github repo, when finished.
-- [ ] Submit a txt file with the Github repo url.
+- [X] Fork the project to your github account
+- [X] Clone the project to your computer
+- [X] Open the project in VSCode with `code <cloned_repo_folder_name>`
+- [X] Initialize playwright and install project packages
+  - [X] Use `npm i` to install packages
+  - [X] Use `npm run browser-install` to install the browser environment for testing 
+- [X] All the tasks of the "Specific requirements" section MUST be solved
+- [X] **The project's file/folder structure should NOT be edited!**
+- [X] All the tests MUST pass. Fix the errors in case they don't BEFORE you submit (acceptance criteria)
+  - [X] Use `npm run test` to run all tests in the terminal
+  - [X] Use `npm run test-main` to run index.html file tests
+  - [X] Use `npm run test-modern-design` to run modern-design.html file tests
+  - [X] Use `npm run test-nature` to run nature.html file tests
+  - [X] Use `npm run test-plants` to run plants.html file tests
+  - [X] Use `npm run test-space` to run space.html file tests
+  - [X] (Optional) Use `npm run test-ui` to run all the tests with GUI
+  - [X] (Optional) Use `npm run show-report` to see the latest report in the browser
+- [X] VSCode IDE MUST have 0 code problems listed (spelling problems are fine)
+- [X] The code MUST be formatted with Prettier
+- [X] Push the changes to the Github repo, when finished.
+- [X] Submit a txt file with the Github repo url.
 
 ## Specific requirements
 
 **For the index.html file:**
 
-- [ ] Connect the scripts.js file
-- [ ] Connect the layout.css file
-- [ ] Connect the images-list.css file
-- [ ] Add the image file path for each gallery item's image
+- [X] Connect the scripts.js file
+- [X] Connect the layout.css file
+- [X] Connect the images-list.css file
+- [X] Add the image file path for each gallery item's image
   - Plants: plant-image.jpg
   - Nature: nature-image.jpg
   - Modern Design: design-image.jpg
   - Space: space-image.jpg
-- [ ] Add the detail page path for each gallery item's "Details" link:
+- [X] Add the detail page path for each gallery item's "Details" link:
   - Plants: plants.html
   - Nature: nature.html
   - Modern Design: modern-design.html
   - Space: space.html
-- [ ] Add the detail page path for each top navigation item:
+- [X] Add the detail page path for each top navigation item:
   - Plants: plants.html
   - Nature: nature.html
   - Modern Design: modern-design.html
@@ -76,26 +76,26 @@ This assignment should prove that a student is able to:
 
 **For each page:**
 
-- [ ] Connect the scripts.js file
-- [ ] Connect the layout.css file
-- [ ] Connect the image-detail.css file
-- [ ] Add the path to the image to let it show up
+- [X] Connect the scripts.js file
+- [X] Connect the layout.css file
+- [X] Connect the image-detail.css file
+- [X] Add the path to the image to let it show up
   - Plants: plant-image.jpg
   - Nature: nature-image.jpg
   - Modern Design: design-image.jpg
   - Space: space-image.jpg
-- [ ] Add the detail page path for each top navigation item:
+- [X] Add the detail page path for each top navigation item:
   - Plants: plants.html
   - Nature: nature.html
   - Modern Design: modern-design.html
   - Space: space.html
-- [ ] Add the path to the index.html file for the "Back to Home Page" link
-- [ ] Add the absolute unsplash.com path to the collection page for the "More \<collection-name\> Images" link.
+- [X] Add the path to the index.html file for the "Back to Home Page" link
+- [X] Add the absolute unsplash.com path to the collection page for the "More \<collection-name\> Images" link.
   - [More Plants Images](https://unsplash.com/s/photos/plants)
   - [More Nature Images](https://unsplash.com/s/photos/nature)
   - [More Space Images](https://unsplash.com/s/photos/space)
   - [More ModernDesign Images](https://unsplash.com/s/photos/modern-design)
-- [ ] Add the detail page path for each bottom navigation item:
+- [X] Add the detail page path for each bottom navigation item:
   - Plants: plants.html
   - Nature: nature.html
   - Modern Design: modern-design.html
